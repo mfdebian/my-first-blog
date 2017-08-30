@@ -25,7 +25,9 @@ SECRET_KEY = 'b0a2l&y8)q5&*5ch)c&5ldnlr42q7y76&1vpid_y9pqwi^h5t&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'djangocoach.pythonanywhere.com'
+]
 
 
 # Application definition
